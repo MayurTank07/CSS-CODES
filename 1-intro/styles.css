@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    background-color: beige;
+    color: grey;
+    padding: 10px;
+}
+
+p {
+    margin: 50px;
+    color: goldenrod;
+}

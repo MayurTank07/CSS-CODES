@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- 
+        CSS -> CASCADING STYLE SHEET
+
+        -> USED TO PUT STYLING IN HTML DOCS / ON WEB PAGES 
+
+        -> STYLING MEANS WHAT IT WILL DO : 
+            1. BACKGROUND CHANGE 
+            2. TEXT COLOR CHANGE
+            3. ALIGNMENT 
+            4. ETC 
+
+
+        -> TYPES OF CSS : 
+
+            1. INLINE CSS 
+            2. INTERNAL CSS
+            3. EXTERNAL CSS 
+
+        
+        1. INLINE CSS : 
+            -> WRITTEN INSIDE OF OPENING TAG WITH THE HELP OF "style" ATTRITUBE 
+            -> INLINE CSS IS WRITTEN IN SINGLE LINE FOR INDIVIDUAL ELEMENT 
+
+            e.g. 
+
+            <p style="color:red"> COntent </p>
+
+        2. INTERNAL CSS :
+            -> WRITTEN INSIDE OF <head> TAG WITH THE HELP OF <style> tag.
+            -> e.g 
+
+                <head>  
+                    <style>
+                        //code
+                    </style>
+                </head>
+    
+            -> WHENEVER WE USE INTERNAL CSS AT THAT MOMENT YOU NEED TO USE "selectors" with { } . 
+
+            -> SELECTOR -> table, th, td
+                <style>
+                    table, th, td {
+                        border: 2px solid black;
+                    }
+                </style>
+
+
+            3. EXTERNAL CSS :
+                -> WHILE USING EXTERNAL CSS YOU NEED TO CREATE A NEW CSS FILE.
+                -> THAT NEW CSS FILE WILL BE CREATE WITH THE EXTENSION OF ".css"
+                -> WE NEED TO LINK "CSS FILE" WITH "HTML FILE" WITH THE HELP <link> tag 
+                -> USE <link> TAG IN <head> TAG OF HTML DOC.
+
+                e.g. 
+
+                <head>
+                    <link href="styles.css" />
+                </head>
+    
+    -->
+
+            <!-- INLINE CSS -->
+
+            <p style="color: grey; background-color: beige; padding: 10px; text-align: center;">Lorem ipsum dolor sit amet.</p>
+
+
+</body>
+</html>
