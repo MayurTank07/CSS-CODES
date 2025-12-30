@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center; /* horizontal */
+            align-items: center; /* vertical */
+        }
+
+        .cardView {
+            display: flex;
+            gap: 20px;
+            /* space between cards */
+            justify-content: flex-start;
+        }
+
+        .card {
+            height: 350px;
+            width: 400px;
+            border: 2px solid black;
+            padding: 5px;
+            text-align: center;
+            border-radius: 25px;
+            background-color: azure;
+        }
+
+        .card-heading {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 25px;
+            margin-top: -10px;
+        }
+
+        .card-desgination {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            margin-top: -10px;
+        }
+
+        .card-desc {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            margin-top: -10px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="cardView">
+        
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/4042/4042356.png" alt="cannot load this img" height="250px"
+                width="250px">
+            <h1 class="card-heading">Dexter Morgan</h1>
+            <h3 class="card-desgination">Founder and CEO</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, commodi illo
+                officiis at veritatis in.</p>
+        </div>
+       
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/4042/4042356.png" alt="cannot load this img" height="250px"
+                width="250px">
+            <h1 class="card-heading">Dexter Morgan</h1>
+            <h3 class="card-desgination">Founder and CEO</h3>
+            <p class="card-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, commodi illo
+                officiis at veritatis in.</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
